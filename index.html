@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Assistive Tech Makeathon</title>
+        <title>Assistive Tech Makeathon - 26-27 April, 2014 - Brown University</title>
         <meta name="description" content="26-27 April, 2014. Brown Design Workshop. Co-hosted by Brown STEAM and SpeakYourMind Foundation.">
         <meta name="keywords" content="Brown University, STEAM, SpeakYourMind Foundation, Assistive Technology, Makeathon, Brown Design Workshop">
         <meta name="author" content="Brown STEAM">
@@ -11,13 +11,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!--Custom CSS-->
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css">
         
         <!--jQuery-->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
         
         <!--JavaScript-->
-        <script type="text/javascript" src="scripts.js"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
         
         <!--Google Analytics-->
         <script>
@@ -29,15 +32,41 @@
             ga('create', 'UA-49649749-1', 'brownsteam.org');
             ga('send', 'pageview');
         </script>
-        <!--End Google Analytics-->
     </head>
     
     <body>
         <div id="container">
-            <h1>Assistive Tech Makeathon</h1>
-            <h2>26-27 April, 2014</h2>
-            <h2>Brown University, Providence, RI</h2>
-            <p>For questions, please contact <a href='mailto:hanna_mcphee@brown.edu'>Hanna McPhee</a>.</p>
+            <header></header>
+
+            <div id="hero" class="block">
+                <div id="hero-content">
+                    <div id="logo">
+                        <a href="/">
+                            <h1 class="animated fadeInDown delay-300ms">Assistive Tech<br><span class="makeathon-text">Makeathon</span></h1>
+                            <div class="color-border animated fadeInDown delay-300ms">
+                                <div class="color-box red"></div>
+                                <div class="color-box green"></div>
+                                <div class="color-box blue"></div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <h2 class="animated fadeInDown delay-300ms">
+                        <a class="date" href="/"><i class="fa fa-calendar fa-lg"></i>
+                        <span class="date-text">26-27 April, 2014</span></a> <!--User AddThisEvent to generate event link-->
+                        <a class="location" href="https://goo.gl/maps/FU2ln"><i class="fa fa-map-marker fa-lg"></i>
+                        <span class="location-text">Brown University, Providence, RI</span></a>
+                    </h2>
+                </div>
+            </div>
+
+            <div id="about" class="block white"></div>
+            <div id="faq" class="block grey"></div>
+            <div id="sponsors" class="block white"></div>
+            <div id="final" class="block grey"></div>
+            <footer>
+                <p>Copyright &copy; 2014 Brown + RISD STEAM &bull; <a href="mailto:hanna_mcphee@brown.edu">Contact Us</a></p>
+            </footer>
         </div>
     </body>
 </html>

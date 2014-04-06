@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'AdelleRegular';
+    src: url('adelle_regular-webfont.eot');
+    src: url('adelle_regular-webfont.eot') format('embedded-opentype'),
+         url('adelle_regular-webfont.woff') format('woff'),
+         url('adelle_regular-webfont.ttf') format('truetype'),
+         url('adelle_regular-webfont.svg#AdelleRegular') format('svg');
+}

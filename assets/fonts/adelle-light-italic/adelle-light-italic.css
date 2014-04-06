@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'AdelleLightItalic';
+    src: url('adelle_lightitalic-webfont.eot');
+    src: url('adelle_lightitalic-webfont.eot') format('embedded-opentype'),
+         url('adelle_lightitalic-webfont.woff') format('woff'),
+         url('adelle_lightitalic-webfont.ttf') format('truetype'),
+         url('adelle_lightitalic-webfont.svg#AdelleLightItalic') format('svg');
+}
