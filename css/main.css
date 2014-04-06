@@ -1,4 +1,6 @@
-/** FONTS **/
+/** CSS **/
+
+/***************** FONTS *****************/
 
 @font-face {
   font-family: 'Adelle Light';
@@ -15,13 +17,7 @@
   src: url('/assets/fonts/adelle-regular/adelle-regular.eot?') format('eot'), url('/assets/fonts/adelle-regular/adelle-regular.woff') format('woff'), url('/assets/fonts/adelle-regular/adelle-regular.ttf') format('truetype');
 }
 
-/** CSS **/
-
-/** {
-  box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  -webkit-box-sizing:border-box
-}*/
+/***************** GLOBAL RULES *****************/
 
 body {
 	font-family: "Adelle Regular", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -31,13 +27,14 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-#instantclick-bar {
-	background: #E35538;
-}
-
 a {
 	text-decoration: none;
 	color: inherit;
+}
+
+*:focus {
+	outline: none;
+	outline: 0;
 }
 
 .delay-300ms {
@@ -47,7 +44,7 @@ a {
 	animation-delay: 300ms;
 }
 
-/** BLOCKS **/
+/***************** DIVS *****************/
 
 #container {
 	width: 100%;
@@ -113,7 +110,9 @@ footer:hover {
 	color: #;
 }
 
-/** CONTENT **/
+/***************** CONTENT *****************/
+
+/***************** Hero *****************/
 
 h1 {
 	font-size: 2.5em;
@@ -124,6 +123,8 @@ h1 {
 .makeathon-text {
 	font-size: 2em;
 }
+
+/***************** Color Box *****************/
 
 .color-border {
 	width: 100%;
@@ -153,6 +154,8 @@ h1 {
 	background-color: #52A5D1;
 }
 
+/***************** Date and Location *****************/
+
 #hero-content > h2 {
 	margin: 30px auto;
 	font-size: 1.2em;
@@ -178,6 +181,38 @@ h1 {
 .date {
 	margin-right: 15px;
 }
+
+/***************** Registration Form *****************/
+
+.email-input, .register-button {
+	display: inline-block;
+	height: 40px;
+	padding: 0 10px;
+
+	font-family: 'Adelle Light Italic';
+	font-size: 1em;
+
+	background: rgba(255,255,255,0.50);
+	border: 2px solid #4A4A4A;
+	-moz-box-shadow:    0px 1px 3px 0px rgba(0,0,0,0.10);
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.10);
+	box-shadow:         0px 1px 3px 0px rgba(0,0,0,0.10);
+}
+
+.email-input {
+	width: 410px;
+	border-right: 0px;
+}
+
+.register-button {
+	height: 44px;
+	width: 120px;
+	cursor: pointer;
+	margin-top: -1px;
+	margin-left: -6px;
+}
+
+/***************** Footer *****************/
 
 footer > p {
 	color: #9B9B9B;

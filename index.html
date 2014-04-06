@@ -38,11 +38,11 @@
             <header></header>
 
             <div id="hero" class="block">
-                <div id="hero-content">
+                <div id="hero-content" class="animated fadeInDown delay-300ms">
                     <div id="logo">
                         <a href="/">
-                            <h1 class="animated fadeInDown delay-300ms">Assistive Tech<br><span class="makeathon-text">Makeathon</span></h1>
-                            <div class="color-border animated fadeInDown delay-300ms">
+                            <h1>Assistive Tech<br><span class="makeathon-text">Makeathon</span></h1>
+                            <div class="color-border">
                                 <div class="color-box red"></div>
                                 <div class="color-box green"></div>
                                 <div class="color-box blue"></div>
@@ -50,12 +50,17 @@
                         </a>
                     </div>
 
-                    <h2 class="animated fadeInDown delay-300ms">
+                    <h2>
                         <a class="date" href="/"><i class="fa fa-calendar fa-lg"></i>
                         <span class="date-text">26-27 April, 2014</span></a> <!--User AddThisEvent to generate event link-->
                         <a class="location" href="https://goo.gl/maps/FU2ln"><i class="fa fa-map-marker fa-lg"></i>
                         <span class="location-text">Brown University, Providence, RI</span></a>
                     </h2>
+
+                    <form id="registration-form" action="/">
+                        <input type="email" name="email" placeholder="Email" id="hero-email" class="email-input" spellcheck="false" autocomplete="off">
+                        <input type="submit" value="Register &#8594;" class="register-button">
+                    </form>
                 </div>
             </div>
 
