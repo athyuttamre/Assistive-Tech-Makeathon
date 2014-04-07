@@ -42,7 +42,7 @@ a {
 	outline: 0;
 }
 
-@media (min-width: 800px) {
+@media screen and (min-width: 1080px) {
 	.fading-content {
 		opacity: 0;
 	}
@@ -66,7 +66,7 @@ a {
 
 #container {
 	width: 100%;
-	min-width: 960px;
+	min-width: 1080px;
 	margin: auto;
 }
 
@@ -77,11 +77,7 @@ a {
 	overflow: auto;
 }
 
-.white {
-	background-color: white;
-}
-
-.grey {
+.block:nth-child(even) {
 	background-color: #F8F8F8;
 }
 
@@ -208,7 +204,7 @@ h1 {
 
 /***************** Registration Form *****************/
 
-#registration-form {
+#registration-form, #final-registration-form {
 	-moz-animation-duration: 800ms;
 	-webkit-animation-duration: 800ms;
 	-o-animation-duration: 800ms;
@@ -263,7 +259,7 @@ h1 {
 /***************** FAQ *****************/
 
 #faq-content {
-	width: 960px;
+	width: 1080px;
 }
 
 #faq-content > h2 {
