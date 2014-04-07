@@ -21,7 +21,9 @@ $(document).ready(function() {
     $(window).scroll( function(){
     
         /* Check the location of each desired element */
-        $('.fading-content').each( function(i){
+        $('.fading-content').each(function(i){
+
+        	var id = $(this).attr("id");
             
             var quarter_of_object = $(this).position().top + ($(this).outerHeight() / 4);
             var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -30,6 +32,12 @@ $(document).ready(function() {
             if( bottom_of_window > quarter_of_object){
                 
                 $(this).animate({'opacity':'1'},300);
+
+                setTimeout(function() {
+                	if(id == "workshops-content") {
+                		$("#workshops-row").addClass("animated fadeInDown");
+                	}
+                }, 500);
                     
             }
             

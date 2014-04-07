@@ -46,6 +46,10 @@ a {
 	.fading-content {
 		opacity: 0;
 	}
+
+	.hideme {
+		opacity: 0;
+	}
 }
 
 .delay-300ms {
@@ -87,6 +91,12 @@ a {
 	padding: 60px 60px;
 }
 
+.block-content > h2 {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
 #hero {
 	height: 100%;
 	background-image: url('/assets/images/blueprint.png');
@@ -116,8 +126,12 @@ a {
 	border-top: 5px solid #52A5D1;
 }
 
+#workshops {
+	border-top: 5px solid #27A77B;
+}
+
 #final {
-	border-top: 5px solid #E35538;
+	border-top: 5px solid #27A77B;
 }
 
 footer {
@@ -243,6 +257,7 @@ h1 {
 
 #about-content > h2 {
 	font-size: 3em;
+	text-transform: none;
 	margin-bottom: 30px;
 }
 
@@ -263,8 +278,6 @@ h1 {
 }
 
 #faq-content > h2 {
-	font-size: 1.5em;
-	text-transform: uppercase;
 	margin-bottom: 50px;
 }
 
@@ -295,11 +308,65 @@ h1 {
 	line-height: 1.4em;
 }
 
+/***************** Workshops *****************/
+
+#workshops-content > p {
+	line-height: 1.4em;
+	font-family: 'Adelle Light';
+	font-size: 1.2em;
+}
+
+#workshops-row {
+	width: 100%;
+	margin: 30px auto;
+}
+
+.workshops-column {
+	width: 420px;
+	display: inline-block;
+	margin-top: 20px;
+
+	background-color: white;
+	padding-bottom: 5px;
+	border-radius: 3px;
+	box-shadow: 0 1px 2px #aaa;
+
+	vertical-align: top;
+
+	text-align: left;
+	line-height: 1.1em;
+}
+
+.workshops-column > img {
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+
+.workshops-column:nth-child(odd) {
+	margin-right: 20px;
+}
+
+.workshops-column > h3 {
+	padding: 10px;
+	border-bottom: 1px solid gray;
+}
+
+.workshops-column > p {
+	padding: 0px 10px;
+	margin: 10px auto;
+	line-height: 1.2em;
+}
+
+.workshops-column > p > i {
+	margin-right: 5px;
+}
+
 /***************** Final *****************/
 
 #final-content > h2 {
 	font-size: 3em;
 	margin-bottom: 30px;
+	text-transform: none;
 }
 
 #final-content > h3 {
