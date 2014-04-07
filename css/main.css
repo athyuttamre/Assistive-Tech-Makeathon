@@ -30,6 +30,7 @@ body {
 a {
 	text-decoration: none;
 	color: inherit;
+	border-bottom: 1px dotted #606060;
 }
 
 *:focus {
@@ -37,11 +38,22 @@ a {
 	outline: 0;
 }
 
+.hideme {
+	opacity: 0;
+}
+
 .delay-300ms {
 	-moz-animation-delay: 300ms;
 	-webkit-animation-delay: 300ms;
 	-o-animation-delay: 300ms;
 	animation-delay: 300ms;
+}
+
+.delay-1s {
+	-moz-animation-delay: 1s;
+	-webkit-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	animation-delay: 1s;
 }
 
 /***************** DIVS *****************/
@@ -65,6 +77,12 @@ a {
 
 .grey {
 	background-color: #F8F8F8;
+}
+
+.block-content {
+	max-width: 960px;
+	margin: auto;
+	padding: 60px 0px;
 }
 
 #hero {
@@ -167,6 +185,7 @@ h1 {
 	-moz-transition: 0.25s;
 	-o-transition: 0.25s;
 	transition: 0.25s;
+	border: none;
 }
 
 .date-text, .location-text {
@@ -183,6 +202,13 @@ h1 {
 }
 
 /***************** Registration Form *****************/
+
+#registration-form {
+	-moz-animation-duration: 800ms;
+	-webkit-animation-duration: 800ms;
+	-o-animation-duration: 800ms;
+	animation-duration: 800ms;
+}
 
 .email-input, .register-button {
 	display: inline-block;
@@ -210,6 +236,62 @@ h1 {
 	cursor: pointer;
 	margin-top: -1px;
 	margin-left: -6px;
+}
+
+/***************** About *****************/
+
+#about-content > h2 {
+	font-size: 3em;
+	margin-bottom: 30px;
+}
+
+#about-content > p {
+	width: 900px;
+	font-family: 'Adelle Light';
+	font-size: 1.3em;
+	text-align: left;
+	margin: 20px auto;
+	padding-left: 60px;
+	line-height: 1.5em;
+}
+
+/***************** FAQ *****************/
+
+#faq-content {
+	width: 960px;
+}
+
+#faq-content > h2 {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+.row {
+	display: block;
+	margin-bottom: 30px;
+}
+
+.column {
+	vertical-align: top;
+	display: inline-block;
+	width: 300px;
+	margin-right: 20px;
+	text-align: left;
+}
+
+.column:nth-child(3) {
+	margin-right: 0px;
+}
+
+.question {
+	font-size: 1.2em;
+	margin-bottom: 15px;
+}
+
+.answer {
+	font-family: 'Adelle Light';
+	line-height: 1.4em;
 }
 
 /***************** Footer *****************/
