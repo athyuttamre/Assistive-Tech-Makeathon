@@ -30,15 +30,7 @@ $(document).ready(function() {
             
             /* If the object is completely visible in the window, fade it it */
             if( bottom_of_window > quarter_of_object){
-                
                 $(this).animate({'opacity':'1'},300);
-
-                setTimeout(function() {
-                	if(id == "workshops-content") {
-                		$("#workshops-row").addClass("animated fadeInDown");
-                	}
-                }, 500);
-                    
             }
             
         }); 
