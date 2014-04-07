@@ -42,8 +42,10 @@ a {
 	outline: 0;
 }
 
-.fading-content {
-	opacity: 0;
+@media (min-width: 800px) {
+	.fading-content {
+		opacity: 0;
+	}
 }
 
 .delay-300ms {

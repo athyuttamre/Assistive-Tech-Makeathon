@@ -2,11 +2,12 @@ $(document).ready(function() {
 
 	$("#registration-form, #final-registration-form").submit(function(e) {
 		e.preventDefault();
-		var email = ($(this).attr("id") == "registration-form") ? $("#hero-email").val() : $("#final-hero-email").val();
+		var id = $(this).attr("id");
+		var email = (id == "registration-form") ? $("#hero-email").val() : $("#final-hero-email").val();
 
 		if (email == "") {
-			$(this).addClass("animated shake");
-			setTimeout(function() {$(this).removeClass("animated shake")}, 850);
+			$("#" + id).addClass("animated shake");
+			setTimeout(function() {$("#" + id).removeClass("animated shake")}, 800);
 			return;
 		} else {
 			var registrationFormURL = "https://docs.google.com/forms/d/14ivINPXtLc1II63VhjRUACnzxwNu41LmKhYCE94yBJ4/viewform?entry.444215346&entry.1007700452&entry.1440565968="
