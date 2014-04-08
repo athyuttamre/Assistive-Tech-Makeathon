@@ -80,7 +80,7 @@ a {
 	overflow: auto;
 }
 
-.block:nth-child(even) {
+.block:nth-child(odd) {
 	background-color: #F8F8F8;
 }
 
