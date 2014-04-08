@@ -76,7 +76,6 @@ a {
 
 .block {
 	width: 100%;
-	min-height: 600px;
 	padding: 200px auto;
 	overflow: auto;
 }
@@ -103,6 +102,7 @@ a {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	min-height: 600px;
 }
 
 #hero-content {
@@ -359,6 +359,37 @@ h1 {
 
 .workshops-column > p > i {
 	margin-right: 5px;
+}
+
+/***************** Sponsors *****************/
+
+.sponsors-row {
+	width: 960px;
+	min-height: 100px;
+	margin: 30px auto;
+}
+
+.sponsors-row > a {
+	border: none;
+}
+
+.sponsors-row > a > img {
+	display: inline-block;
+	margin: 20px;
+	opacity: 0.8;
+	-webkit-transition: 0.25s;
+	-moz-transition: 0.25s;
+	-o-transition: 0.25s;
+	transition: 0.25s;
+}
+
+.sponsors-row > a > img:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+
+.sponsors-row > a > img {
+	height: 150px;
 }
 
 /***************** Final *****************/
