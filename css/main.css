@@ -375,8 +375,9 @@ h1 {
 
 .sponsors-row > a > img {
 	display: inline-block;
-	margin: 20px;
+	margin: 20px 10px;
 	opacity: 0.8;
+	vertical-align: middle;
 	-webkit-transition: 0.25s;
 	-moz-transition: 0.25s;
 	-o-transition: 0.25s;
@@ -390,6 +391,10 @@ h1 {
 
 .sponsors-row > a > img {
 	height: 150px;
+}
+
+#microsoft {
+	height: 80px;
 }
 
 /***************** Final *****************/
