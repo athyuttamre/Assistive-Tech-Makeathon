@@ -376,17 +376,15 @@ h1 {
 .sponsors-row > a > img {
 	display: inline-block;
 	margin: 20px 10px;
-	opacity: 0.8;
 	vertical-align: middle;
-	-webkit-transition: 0.25s;
-	-moz-transition: 0.25s;
-	-o-transition: 0.25s;
-	transition: 0.25s;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
 }
 
 .sponsors-row > a > img:hover {
 	cursor: pointer;
-	opacity: 1;
 }
 
 .sponsors-row > a > img {
