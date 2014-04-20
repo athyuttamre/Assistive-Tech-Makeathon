@@ -253,6 +253,10 @@ h1 {
 	margin-left: -6px;
 }
 
+.registration-closed {
+	font-family: 'Adelle Light Italic';
+}
+
 /***************** About *****************/
 
 #about-content > h2 {
@@ -405,7 +409,6 @@ h1 {
 
 #final-content > h3 {
 	font-size: 1.5em;
-	margin-top: 50px;
 	margin-bottom: 50px;
 }
 
